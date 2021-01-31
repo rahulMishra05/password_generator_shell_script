@@ -9,7 +9,7 @@ echo "THIS IS A SIMPLE PASSWORD GENERATOR"
 echo "Please enter the length of the password you want : "
 read PASS_LENGTH  # Store the password length entered by the user here
 
-for p in $(seq 1);
+for p in $(seq 1 5);
 do
 	openssl rand -base64 48 | cut -c1-$PASS_LENGTH
 	# Here we are using openssl for generating secure password.
