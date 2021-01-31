@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# Simple password generator
+# Simple password generator using openssl 
 
 # Welcome message 
 echo "THIS IS A SIMPLE PASSWORD GENERATOR"
