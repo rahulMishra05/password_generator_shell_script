@@ -9,6 +9,7 @@ echo "THIS IS A SIMPLE PASSWORD GENERATOR"
 # Here \c is used to keep the cursor on the same line and if we do not use -e flag than \c will also get printed 
 echo -e "Please enter the length of the password you want : \c"
 read PASS_LENGTH  # Store the password length entered by the user here
+echo " "
 
 for p in $(seq 1 5);
 do
