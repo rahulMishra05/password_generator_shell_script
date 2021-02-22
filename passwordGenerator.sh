@@ -2,8 +2,12 @@
 
 # Simple password generator using openssl 
 
+# Variable declaration for color
+NONE='\033[00m'
+RED='\033[01;31m'
+
 # Welcome message 
-echo "THIS IS A SIMPLE PASSWORD GENERATOR"
+echo -e "${RED}THIS IS A SIMPLE PASSWORD GENERATOR${NONE}"
 
 # Ask for the length from the user
 # Here \c is used to keep the cursor on the same line and if we do not use -e flag than \c will also get printed 
